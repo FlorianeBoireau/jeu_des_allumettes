@@ -11,6 +11,7 @@ function retirerDesAllumettes(allumettesARetirer) {
 function changerJoueur() {
     // permet de vérifier quel joueur joue
     if (joueurActif === "joueur 1") {
+        
         // permet de passer à l'autre joueur
         joueurActif = "joueur 2";
     } else {
